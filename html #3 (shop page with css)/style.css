@@ -1,0 +1,92 @@
+body {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.page {
+    display: flex;
+    flex-direction: column;
+    width: 1200px;
+    margin: 0 auto;
+}
+.page > div{
+    padding: 20px 30px;
+    margin: 20px 0;
+}
+.title {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.logo > img {
+    width: 100px;
+    height: 100px;
+    margin: 10px 30px;
+}
+
+.description > h1 {
+    font-family: monospace;
+}
+
+.description > p {
+    color: #727272;
+}
+.why_we{
+    background: #faf1e5;
+    border-radius: 20px;
+}
+.whyTextDiv{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.whyTextDiv > img{
+    width: 60px;
+    opacity: 0.4;
+}
+.why_we > ul{
+    margin: 0;
+}
+.why_we li{
+    font: 17px monospace;
+    margin: 5px 0;
+}
+.catalog > h2{
+    display: flex;
+    justify-content: flex-start;
+    color: cadetblue;
+    padding: 10px 25px;
+    border-bottom: 1px solid lightgrey;
+}
+.toysDiv{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 30px 0;
+}
+.toy{
+    padding: 10px;
+    background: #faf1e5;
+    border-radius: 10px;
+}
+
+.toy > img{
+    width: 300px;
+    height: 280px;
+    border-radius: 10px;
+}
+.toy > h3{
+    margin-top: 10px;
+    text-align: center;
+}
+.toy > p{
+    font-size: 19px;
+    margin-left: 20px;
+    border-left: 2px solid orange;
+    padding-left: 10px;
+}
