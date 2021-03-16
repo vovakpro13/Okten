@@ -1,0 +1,185 @@
+body {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.wrapper {
+    display: flex;
+    align-items: flex-start;
+    width: 100%;
+    background: #f3f3f3;
+
+}
+
+.a_style {
+    text-decoration: none;
+    color: darkblue;
+}
+
+.a_style:hover {
+    text-decoration: underline;
+}
+
+.left {
+    width: 190px;
+    line-height: 20px;
+}
+
+.box {
+    padding: 10px 29px;
+}
+
+.box > div {
+    margin-bottom: 10px;
+}
+
+.titleOfLi {
+    text-align: left;
+    font-size: 13px;
+}
+
+
+.box > div > ul > li {
+    list-style-type: none;
+    margin-left: -40px;
+}
+
+.box > div > ul > li > a {
+    font-size: 13px;
+}
+
+.logo > img {
+    width: 150px;
+}
+
+.right {
+    width: 100%;
+    line-height: 26px;
+}
+
+.menuDiv {
+    display: flex;
+    justify-content: flex-end;
+    padding: 12px;
+
+}
+
+.menuDiv > div {
+    font-size: 13px;
+    margin-left: 10px;
+}
+
+.secondMenuDiv, .secondMenuDiv > div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0;
+}
+
+.secondMenuDiv > div {
+    margin: 0;
+}
+
+.secondMenuDiv > div > div {
+    padding: 10px;
+    border-left: 1px solid #85b4e9;
+    background: aliceblue;
+    height: 25px;
+}
+
+.secondMenuDiv > div > div > a {
+    font-size: 14px;
+}
+
+.find {
+    padding: 0;
+    margin: 0;
+}
+
+.find > input {
+    width: 300px;
+    padding: 5px;
+    margin: 0;
+}
+
+.contentDiv {
+    border: 1px solid #809cd4;
+    font-size: 15px;
+    background: #ffffff;
+    padding: 10px 25px;
+}
+
+.contentDiv > h1 {
+    font-family: serif;
+    border-bottom: 1px solid grey;
+    padding: 5px;
+}
+
+.warning {
+    width: 1000px;
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+    border: 1px solid lightgrey;
+    padding: 0 10px;
+    border-left: 10px solid orange;
+    background: #f6f6f6;
+}
+
+.warning > img {
+    height: 40px;
+    margin-right: 15px;
+}
+
+.warning > p {
+    margin: 5px 10px;
+}
+
+.tech {
+    border: 1px solid grey;
+}
+
+.tech > h4 {
+    margin: 3px;
+    background: #c69ae5;
+    text-align: center;
+}
+.categs{
+    padding: 5px;
+    margin-top: 15px;
+    border: 1px solid grey;
+    background: #f0f8ff;
+}
+.categs, .categs > ul{
+    display: flex;
+    align-items: center;
+}
+.categs > ul{
+    padding: 0;
+    margin: 0;
+}
+.categs > ul > li{
+    list-style-type: none;
+    margin: 0 10px;
+}
+.footerDiv{
+    padding: 20px;
+    font-size: 13px;
+}
+.footerDiv > ul{
+    display: flex;
+    padding: 0;
+}
+
+.footerDiv > ul > li{
+    list-style-type: none;
+    margin-right: 10px;
+}
+
+
+
+
+
+
