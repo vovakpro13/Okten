@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Flex 2</title>
+    <style>
+        .father{
+            width: 1000px;
+            margin: 0 auto;
+            font-family: sans-serif;
+            color: white;
+        }
+        .header{
+            background: #5050b0;
+            height: 120px;
+        }
+        .nav{
+            height: 60px;
+            background: darkblue;
+        }
+        .center{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .content{
+            display: flex;
+            height: 400px;
+        }
+        .content > div{
+            height: 100%;
+        }
+        .main{
+            width: 80%;
+            background: deepskyblue;
+        }
+        .aside{
+            width: 20%;
+            background: #8b5cc3;
+        }
+        .footer{
+            height: 80px;
+            background: lightblue;
+        }
+    </style>
+</head>
+<body>
+    <div class="father">
+        <div class="header center">Header</div>
+        <div class="nav center">Nav</div>
+        <div class="content">
+            <div class="main center">Main</div>
+            <div class="aside center">Aside</div>
+        </div>
+        <div class="footer center">Footer</div>
+    </div>
+</body>
+</html>

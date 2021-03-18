@@ -1,0 +1,193 @@
+.father {
+    width: 1000px;
+    margin: 0 auto;
+    font-family: sans-serif;
+}
+a{
+    color: #8deeff;
+}
+.header {
+    background: pink;
+    display: flex;
+    flex-direction: column;
+}
+
+.wh100 {
+    height: 100%;
+    width: 100%;
+}
+
+.wb {
+    padding: 50px;
+}
+
+.white {
+    background: white;
+    padding: 40px;
+    width: 700px;
+}
+
+.black {
+    background: black;
+    padding: 30px;
+    width: 500px;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main {
+    padding-bottom: 20px;
+}
+
+.content {
+    width: 100%;
+    height: 500px;
+}
+
+.blocks {
+    display: flex;
+    flex-direction: row;
+}
+
+.menu_block {
+    width: 25%;
+    height: 100px;
+}
+
+.block {
+    width: 33.3333%;
+    height: 100%;
+}
+
+.left {
+    margin: 50px;
+    background: orange;
+    padding-bottom: 5px;
+}
+
+.left_cont {
+    height: 350px;
+    display: flex;
+}
+
+.left_block {
+    display: flex;
+    justify-content: center;
+
+}
+
+.center_cont {
+    height: 430px;
+    width: 100%;
+    display: flex;
+    padding-top: 50px;
+}
+
+.center_block {
+    display: flex;
+    flex-direction: column;
+}
+
+.a-c {
+    padding-bottom: 25px;
+}
+
+.a-center-cont {
+    display: flex;
+    align-items: flex-end;
+}
+
+.a-center-block {
+    display: flex;
+    align-items: flex-start;
+}
+
+.small_block {
+    height: 60%;
+}
+.right-cont{
+    display: flex;
+    align-items: center;
+    height: 430px;
+}
+.right-help-cont{
+    display: flex;
+    height: 320px;
+}
+
+.right-block{
+    width: 100%;
+    height: 170px;
+}
+.space-beetwen{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.up{
+    display: flex;
+    align-items: flex-start;
+}
+.down{
+    display: flex;
+    align-items: flex-end;
+}
+.right-right-cont{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+
+}
+
+.top-el{
+    display: flex;
+    justify-content: flex-end;
+}
+.bottom-el{
+    display: flex;
+    justify-content: flex-start;
+}
+.black-block{
+    padding: 5px 21px;
+    background: #000;
+}
+.footer{
+    height: 140px;
+    background: #000;
+    color: white;
+}
+.h500 {
+    height: 500px;
+}
+
+.red {
+    background: red;
+}
+
+.orange {
+    background: orange;
+}
+
+.blue1 {
+    background: dodgerblue;
+}
+
+.yellow {
+    background: yellow;
+}
+
+.green {
+    background: green;
+}
+
+.violet {
+    background: #6b5bfa;
+}
+
+.grey {
+    background: #bcbcbc;
+}

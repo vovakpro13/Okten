@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Add</title>
+    <style>
+        .father{
+            width: 1000px;
+            margin: 0 auto;
+            font-family: sans-serif;
+        }
+        .father > div{
+            margin: 10px;
+        }
+        .br5{
+            border-radius: 5px;
+        }
+        .header{
+            border: 3px solid greenyellow;
+            height: 120px;
+        }
+        .nav{
+            height: 60px;
+            border: 5px solid pink;
+        }
+        .content{
+            display: flex;
+            height: 400px;
+        }
+        .center{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .content > div{
+            height: 100%;
+        }
+        .main{
+            width: 80%;
+        }
+        .con{
+            width: 75%;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            border: 5px solid  blue;
+
+        }
+        .con > div > div{
+            margin: 5px;
+        }
+        .footer{
+            height: 80px;
+            border: 5px solid yellow;
+        }
+        .section{
+            border: 5px solid hotpink;
+            height: 30px;
+        }
+        .main{
+            border: 5px solid antiquewhite;
+            width: 25%;
+            height: 100%;
+        }
+        .aside{
+            border: 5px solid #8deeff;
+            margin: 5px;
+        }
+        .h50{
+            height: 50%;
+        }
+        .h35{
+            height: 35%;
+        }
+        .h50px{
+            height: 50px;
+        }
+    </style>
+</head>
+<body>
+    <div class="father">
+        <div class="header br5 center">Header</div>
+        <div class="nav br5 center">Nav</div>
+        <div class="content ">
+            <div class="con br5">
+                <div class="top">
+                    <div>Article</div>
+                    <div class="header br5 center h50px">Header</div>
+                </div>
+                <div class="bottom">
+                    <div class="section center br5">Section</div>
+                    <div class="section center br5">Section</div>
+                    <div class="footer br5 center">Footer</div>
+                </div>
+            </div>
+            <div class="main">
+                <div >Div</div>
+                <div class="aside center h50">Aside</div>
+                <div class="aside center h35">Aside</div>
+            </div>
+        </div>
+        <div class="footer br5 center ">Footer</div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Page</title>
+    <style type="text/css">
+        .father{
+            width: 1000px;
+            margin: 0 auto;
+        }
+        .content{
+            height: 400px;
+        }
+        .center{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .m5{
+            margin: 5px;
+        }
+        .green {
+            background: lightgreen;
+        }
+        .row{
+            display: flex;
+        }
+        .menu {
+            background: pink;
+            width: 30%;
+        }
+        .posts{
+            width: 70%;
+        }
+        .post {
+            height: 45%;
+            background: cornflowerblue;
+            margin: 10px;
+        }
+        .header, .footer{
+            padding: 50px 0;
+        }
+    </style>
+</head>
+<body>
+    <div class="father">
+        <div class="header green m5 center">div id="header"</div>
+
+        <div class="content row">
+            <div class="menu m5 center">div id="menu"</div>
+
+            <div class="posts m5">
+                <div class="post m5 center">div id="post"</div>
+                <div class="post m5 center">div id="post"</div>
+            </div>
+        </div>
+
+        <div class="footer green m5 center">div id="footer"</div>
+    </div>
+</body>
+</html>
