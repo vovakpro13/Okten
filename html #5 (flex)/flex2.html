@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Flex 2</title>
+    <style>
+        .father {
+            width: 1000px;
+            margin: 0 auto;
+        }
+
+        .father > div {
+            width: 100%;
+            display: flex;
+        }
+
+        .row {
+            display: flex;
+        }
+
+        .height {
+            height: 140px;
+        }
+
+        .A {
+            background: #e03f3f;
+        }
+
+        .B {
+            background: #809cd4;;
+        }
+
+        .C {
+            background: #a6e579;
+        }
+
+        .D {
+            background: #eecd65;
+        }
+
+        .E {
+            background: #fffee0;
+        }
+
+        .F {
+            background: #c69ae5;
+            width: 30%;
+        }
+
+        .cde > div {
+            width: 33.3333333%;
+        }
+
+        .w70 {
+            width: 70%;
+        }
+
+        .cont-cntr {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+    </style>
+    <link rel="stylesheet" href="a.css">
+</head>
+<body>
+    <div class="father ">
+        <div class="A height cont-cntr">A</div>
+        <div class="row">
+            <div class="w70">
+                <div class="B height cont-cntr">B</div>
+                <div class="cde row">
+                    <div class="C height cont-cntr">C</div>
+                    <div class="D height cont-cntr">D</div>
+                    <div class="E height cont-cntr">E</div>
+                </div>
+            </div>
+            <div class="F cont-cntr">F</div>
+        </div>
+        <div>
+            <a class="a" href="index.html"> << Flex 1</a>
+            <a class="a" href="flex3.html">Flex 3 >></a>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Flex 1</title>
+    <style type="text/css">
+        .father {
+            width: 1000px;
+            margin: 0 auto;
+        }
+
+        .father div {
+            display: flex;
+        }
+
+        .flex-box {
+            justify-content: center;
+            align-items: center;
+        }
+
+        .secondBlock > div {
+            height: 200px;
+        }
+
+        .A {
+            background: orange;
+            height: 100px;
+            width: 100%;
+        }
+
+        .B {
+            background: #85b4e9;
+            width: 70%;
+        }
+
+        .C {
+            background: lightgreen;
+            width: 30%;
+        }
+    </style>
+    <link rel="stylesheet" href="a.css">
+</head>
+<body>
+    <div class="father">
+        <div>
+            <div class="flex-box A">A</div>
+        </div>
+        <div class="secondBlock">
+            <div class="flex-box B">B</div>
+            <div class="flex-box C">C</div>
+        </div>
+        <div><a class="a" href="flex2.html" >Flex 2 >></a></div>
+    </div>
+</body>
+</html>
