@@ -36,19 +36,19 @@ console.log(fs);
 
 // alert()
 
-// alert(hello);
-// alert(owu);
-// alert(com_);
-// alert(ua);
-// alert(one);
-// alert(ten);
-// alert(neg_nine);
-// alert(oth);
-// alert(pi);
-// alert(ts);
-// alert(sixteen);
-// alert(truth);
-// alert(fs);
+alert(hello);
+alert(owu);
+alert(com_);
+alert(ua);
+alert(one);
+alert(ten);
+alert(neg_nine);
+alert(oth);
+alert(pi);
+alert(ts);
+alert(sixteen);
+alert(truth);
+alert(fs);
 
 // document.write()
 
