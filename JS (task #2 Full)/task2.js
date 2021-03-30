@@ -251,8 +251,7 @@ console.log("---------------------");
 
 let abc = ['a', 'b', 'c'];
 let nums = 1;
-const len = abc.length;
-for (let c = len; c < len + 3; c++) {
+for (let c = abc.length; c < abc.length + 3; c++) {
     abc[c] = nums++;
 }
 console.log(abc);
