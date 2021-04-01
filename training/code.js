@@ -1,12 +1,3 @@
 
 
-    console.log(typeof NaN);
-
-
-
-
-
-
-
-
 
