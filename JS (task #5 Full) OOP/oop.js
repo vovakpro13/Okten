@@ -131,7 +131,10 @@ function Driver(name = '', hasRules = true, exp = 0, isHealthy = true) {
 const Vova = new Driver('Volodymyr', false, 4);
 
 car.addDriver(Vova);
-
+car.drive();
+car.info();
+car.increaseMaxSpeed(340);
+car.changeYear(2020);
 console.log(car)
 
 // ______________________________________________________________________________________________________________________________________________________
