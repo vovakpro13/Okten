@@ -152,30 +152,37 @@ function Car(model = '', maker = '', year = 0, maxSpeed = 0, engineCapacity = 0)
     this.maxSpeed = maxSpeed;
     this.engineCapacity = engineCapacity;
 
-    function drive() {
+    this.drive = function() {
         document.write(`їдемо зі швидкістю ${this.maxSpeed} на годину <br>`);
     }
 
-    function info() {
+    this.info = function () {
         const keys = Object.keys(this);
         for (let i = 0; i < 5; i++) {
             document.write(`${keys[i]}: ${this[keys[i]]} <br>`);
         }
     }
 
-    function increaseMaxSpeed(newSpeed) {
+    this.increaseMaxSpeed = function (newSpeed) {
         this.maxSpeed = newSpeed;
     }
 
-    function changeYear(newValue) {
+    this.changeYear = function (newValue) {
         this.year = newValue
     }
 
-    function addDriver(driver) {
+    this.addDriver = function (driver) {
         this.driver = driver;
     }
 }
-
+const driver5 = new Driver('Oleg', true,20);
+const car1 = new Car('Opel', 'Germany', 2000, 200, 2);
+car1.drive();
+car1.info();
+car1.increaseMaxSpeed(240);
+car1.changeYear(2003);
+car1.addDriver(driver5);
+console.log(car1);
 // - Створити клас який дозволяє створювати об'єкти car, з властивостями модель, виробник, рік випуску, максимальна швидкість, об'єм двигуна. додати в об'єкт функції:
 // -- drive () - яка виводить в консоль "їдемо зі швидкістю {максимальна швидкість} на годину"
 // -- info () - яка виводить всю інформацію про автомобіль
@@ -216,6 +223,13 @@ class CarClass {
     }
 
 }
+const carFromClass = new CarClass('Toyota', 'Some Country..', 2010, 250, 3);
+carFromClass.drive();
+carFromClass.info();
+carFromClass.increaseMaxSpeed(300);
+carFromClass.changeYear(2016);
+carFromClass.addDriver(Vova);
+console.log(carFromClass);
 
 // -створити класс попелюшка з полями ім'я, вік, розмір ноги
 // --Створити 10 попелюшок , покласти їх в масив
