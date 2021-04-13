@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Events</title>
+    <style>
+        body{
+            font-family: sans-serif;
+        }
+        input{
+            margin: 10px;
+            padding: 5px;
+            width: 150px;
+        }
+        #text{
+            margin: 20px 0 5px 10px;
+        }
+        button{
+            background: orange;
+            padding: 5px 15px;
+            border: 0 solid;
+            border-radius: 50px;
+            font-size: 17px;
+            color: white;
+            margin: 10px 0;
+        }
+        .error{
+            color: red;
+        }
+        #ul{
+            overflow: hidden;
+            cursor: pointer;
+        }
+        #comments{
+            display: flex;
+            justify-content: space-around;
+        }
+        table{
+            box-sizing: border-box;
+            border: none;
+        }
+        td{
+            border: 1px solid orange;
+            padding: 5px;
+            margin: 6px;
+        }
+        #slider{
+            display: flex;
+            align-items: center;
+            margin-top: 20px;
+        }
+        #slider > img{
+            width: 200px;
+            display: none;
+
+        }
+        .btn{
+            padding: 20px;
+            background: orange;
+            color: white;
+            font-size: 18px;
+            border-radius: 50px;
+            cursor: pointer;
+            margin: 0 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="task1">
+        <div id="text">I wanna be closed</div>
+        <button id="closeText">Close text</button>
+    </div>
+    <hr>
+
+    <div class="task2">
+        <button id="closeMyself">Close me</button>
+    </div>
+    <hr>
+
+    <div class="task3">
+        <label>Your age:
+            <input id="age" type="number" max="100" min="0" name="age" placeholder="Your age here..">
+        </label>
+
+        <button id="takeAge">Take age</button>
+        <div id="info"></div>
+    </div>
+    <hr>
+
+    <div class="task4">
+        <ul id="ul">
+            <li style="display: block">Menu</li>
+            <li>Page 2</li>
+            <li>Page 3</li>
+            <li>Page 4</li>
+        </ul>
+    </div>
+    <hr>
+
+    <div class="task5">
+        <h3>Comments</h3>
+        <div id="comments"></div>
+    </div>
+    <br>
+    <hr>
+
+    <div class="task6">
+        <form name="boy"><h4>Boy</h4>
+            <label>name
+                <input type="text" name="boyName">
+            </label>
+            <label>age
+                <input type="number" name="boyAge">
+            </label>
+        </form>
+
+        <form name="girl"><h4>Girl</h4>
+            <label>name
+                <input type="text" name="girlName">
+            </label>
+            <label>age
+                <input type="number" name="girlAge">
+            </label>
+        </form>
+
+        <button id="printConsole">Print in console</button>
+    </div>
+
+    <hr>
+
+    <div id="forTableDiv" class="task7"></div>
+    <hr>
+
+    <div id="slider" class="task8">
+        <div class="btn" id="left"><</div>
+
+        <img class="imgs" src="img/first.jpg" alt="landscape">
+        <img class="imgs" src="img/second.jpg" alt="landscape">
+        <img class="imgs" src="img/third.jpg" alt="landscape">
+
+        <div class="btn" id="right">></div>
+    </div>
+    <hr>
+    <div class="task9">
+        <label for="word">Word</label>
+        <input placeholder="Your word here.." type="text" id="word">
+        <button id="control">Ok</button>
+    </div>
+    <hr>
+    <div class="task10">
+        <label for="sentence">Sentence</label>
+        <input placeholder="Your sentence here.." type="text" id="sentence">
+        <button id="control2">Ok</button>
+    </div>
+
+    <div class="task11">
+        <h3>Filter</h3>
+
+        <label>Users with false status
+            <input class="filterInputs" type="checkbox" name="isFalse">
+        </label>
+        <br>
+
+        <label>Users older 29
+            <input class="filterInputs"  type="checkbox" name="older29">
+        </label><br>
+
+        <label>Users from Kiev
+            <input  class="filterInputs"  type="checkbox" name="fromKiev">
+        </label><br>
+        <button id="open">Open</button>
+        <div id="divForResults"></div>
+    </div>
+    <script src="events.js"></script>
+</body>
+</html>

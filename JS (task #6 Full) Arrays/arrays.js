@@ -490,7 +490,6 @@ function indexesMinMax(arr = [], key = 0) {
         if (value === key) {
             if (arr[index - 1] !== key) {
                 indexes.minIndex = index;
-
             }
             if (arr[index + 1] !== key) {
                 indexes.maxIndex = index;
