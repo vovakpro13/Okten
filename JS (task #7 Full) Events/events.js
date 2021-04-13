@@ -248,10 +248,6 @@ function printArray(arr) {
     });
 }
 
-const isFalse = usersWithAddress.filter((user) => !user.isMarried);
-const age29 = usersWithAddress.filter((user) => user.age >= 29);
-const fromKyiv = usersWithAddress.filter((user) => user.address.city === 'Kyiv');
-
 document.getElementById('open').onclick = (ev) =>{
     const checkBoxes = document.getElementsByClassName('filterInputs');
     let filterArray = usersWithAddress.map((u) => u);  //copy
