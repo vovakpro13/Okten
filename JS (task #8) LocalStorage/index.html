@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>LocalStorage</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="task">
+        <label for="text" id="textLabel">Put your text here:</label><br>
+        <textarea name="textarea" id="text" cols="25" rows="3"></textarea>
+    </div>
+    <hr>
+    <div class="task">
+        <form action name="questionnaire" id="form1">
+            <label><b>Your name:</b>
+                <input type="text" name="userName" id="userName">
+            </label>
+
+            <label><b>Your age:</b>
+                <input type="number" name="userAge" id="userAge">
+            </label>
+
+            <label><b>About you:</b>
+                <textarea name="aboutUser" id="aboutUser" cols="20" rows="10"></textarea>
+            </label>
+
+            <label class="skills"><b>Skills:</b>
+                <label>JavaScript <input  type="checkbox" name="skills" id="js"></label>
+                <label>React <input type="checkbox" name="skills" id="react"></label>
+                <label>Node.js <input type="checkbox" name="skills" id="nodeJS"></label>
+
+            </label>
+
+            <label class="platforms"><b>Platform:</b>
+                <label>Windows <input type="radio"  name="platform" id="windows"></label>
+                <label>Linux <input type="radio" name="platform" id="linux"></label>
+                <label>MacOS <input type="radio" name="platform" id="macOS"></label>
+
+            </label>
+
+            <label for="gender"><b>Your gender:</b>
+                <select name="genderUser" id="gender">
+                    <option></option>
+                    <option>Male</option>
+                    <option>Female</option>
+                </select>
+            </label>
+
+        </form>
+    </div>
+    <br>
+    <hr>
+
+    <div class="task w300">
+        <h3>NoteBook</h3>
+        <div class="refs">
+            <button id="back">Back</button>
+            <button id="forward">Forward</button>
+        </div>
+        <label for="note"><span id="version"></span>
+            <textarea  name="noteBook" id="note" cols="30" rows="10"></textarea>
+        </label><br>
+        <div class="bot">
+            <button id="saveNote">Save</button>
+            <label id="edit">Edit
+                <input type="checkbox" name="edit" id="editInput">
+            </label>
+        </div>
+
+    </div>
+    <hr>
+    <br>
+
+    <h1 class="center">Contacts</h1>
+    <br><br>
+
+    <div class="task row_">
+
+        <br>
+        <div class="divAdd">
+            <h2 class="center">Add contact</h2>
+            <form action name="contactForm" id="conts">
+                <label>Name Lastname Fathername
+                    <input type="text" name="fio" >
+                </label>
+                <label>Number
+                    <input type="text" name="number" >
+                </label>
+                <label>E-mail
+                    <input type="text" name="mail" >
+                </label>
+                <label>Company
+                    <input type="text" name="company" >
+                </label>
+                <label>Division
+                    <input type="number" name="division" maxlength="1" >
+                </label>
+                <label>Birthday
+                    <input type="datetime-local" name="birthday">
+                </label>
+            </form>
+            <button id="addContact"><h2>Add</h2></button>
+        </div>
+
+        <div class="list">
+            <h2 class="center" >Contact List</h2>
+            <div id="list"></div>
+        </div>
+
+
+        <div id="ed">
+
+        </div>
+    </div>
+
+
+
+
+
+
+    <script src="storage.js"></script>
+</body>
+</html>

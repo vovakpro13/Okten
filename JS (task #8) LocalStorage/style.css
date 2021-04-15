@@ -1,0 +1,116 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+.task{
+    margin: 20px;
+    width: 500px;
+    margin-left: 100px;
+}
+input{
+    margin: 5px;
+    padding: 6px;
+    border-radius: 10px;
+    border: 1.4px solid orange;
+    font-size: 14px;
+}
+input:focus{
+    outline: none;
+}
+#textLabel{
+    margin: 7px;
+}
+textarea{
+    border-radius: 10px;
+    border: 1px solid orange;
+    margin-top: 10px;
+    padding: 10px;
+    resize: none;
+    color: grey;
+}
+textarea:focus{
+    outline: none;
+}
+#form1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    padding: 20px;
+    border: 1px solid grey;
+}
+#form1> label{
+    width: 400px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 12px;
+}
+button{
+    padding: 7px 20px;
+    border: 1px solid orange;
+    background-color: lightsalmon;
+    border-radius: 50px;
+    color: white;
+    margin: 10px;
+}
+#savNote{
+    float: right;
+}
+.w300{
+    width: 240px;
+    margin-bottom: 100px;
+}
+
+.refs{
+    display: flex;
+}
+
+.refs button{
+    display: none;
+}
+
+.bot {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#edit {
+    font-size: 17px;
+}
+#conts{
+    display: flex;
+    flex-direction: column;
+
+}
+
+#conts label{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.center{
+    text-align: center;
+    margin-bottom: 20px;
+}
+.row_{
+    display: flex;
+    justify-content: space-around;
+    width: 1200px;
+}
+.row{
+    display: flex;
+}
+.contact{
+    margin: 10px;
+    padding: 14px;
+    border-radius: 20px;
+    border: 1px solid orange;
+}
+.col{
+    display: flex;
+    flex-direction: column;
+}
